@@ -113,6 +113,14 @@ legend {
   padding: 10px;
 }
 
+.input-container > input:invalid {
+    border-color: red;
+}
+
+.input-container > input:focus{
+    box-shadow: 3px 3px 5px #454d59;
+}
+
 /* Submit and Log In section*/
 
 .submit-section {
