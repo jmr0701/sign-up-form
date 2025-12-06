@@ -10,6 +10,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Left side header */
+
 header {
   background: no-repeat left url(images/halie-west-leaf.jpg);
   background-size:cover;   
@@ -50,6 +52,8 @@ header {
   color: red;
 }
 
+/* Right side content */
+
 main {
   background-color: #f9fafb;
   height: 100vh;
@@ -62,6 +66,8 @@ main {
   font-weight: 600;
   color: #0b0b0b;
 }
+
+/* Form */
 
 form {
   display: flex;
@@ -78,6 +84,8 @@ legend {
     padding-bottom: 20px;
     color: #0b0b0b;
 }
+
+/* Form Inputs */
 
 .input-section {
   display: flex;
@@ -105,6 +113,7 @@ legend {
   padding: 10px;
 }
 
+/* Submit and Log In section*/
 
 .submit-section {
   margin-top: 55px;
